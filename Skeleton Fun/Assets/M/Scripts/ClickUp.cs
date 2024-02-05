@@ -1,10 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
-using System.Threading;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.Utilities;
+
 
 public class ClickUp : MonoBehaviour
 {
@@ -13,8 +9,14 @@ public class ClickUp : MonoBehaviour
     bool clickCheck;
     int randomI;
     float randomF;
+    public Transform skeletonRotate;
+    float rotateDirection;
 
-   
+    private void Start()
+    {
+        Time.timeScale = 2.0f;
+        rotateDirection = 20 * Time.deltaTime;
+    }
     private void Awake()
     {
         action = new Interactions();
@@ -29,6 +31,7 @@ public class ClickUp : MonoBehaviour
             StartCoroutine(ClickCooldown(randomF));
         }
 
+        skeletonRotate.Rotate(0, 0, rotateDirection, Space.Self);
 
     }
     public void Click()
@@ -49,11 +52,13 @@ public class ClickUp : MonoBehaviour
                     {
                         Debug.Log("right");
                         hit.rigidbody.velocity = new Vector3(15, 15, 0);
+                        rotateDirection = -20 * Time.deltaTime;
                     }
                     else
                     {
                         Debug.Log("left");
                         hit.rigidbody.velocity = new Vector3(-15, 15, 0);
+                        rotateDirection = 20 * Time.deltaTime;
                     }
 
                     clickCheck = true;
