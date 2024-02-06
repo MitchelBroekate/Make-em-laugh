@@ -64,13 +64,13 @@ public class ClickUp : MonoBehaviour
                     if (randomI == 1)
                     {
                         Debug.Log("right");
-                        hit.rigidbody.velocity = new Vector3(15, 15, 0);
+                        hit.rigidbody.velocity = new Vector3(30, 20, 0);
                         rotateDirection = -50 * Time.deltaTime;
                     }
                     else
                     {
                         Debug.Log("left");
-                        hit.rigidbody.velocity = new Vector3(-15, 15, 0);
+                        hit.rigidbody.velocity = new Vector3(-30, 20, 0);
                         rotateDirection = 50 * Time.deltaTime;
                     }
 

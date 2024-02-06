@@ -5,7 +5,7 @@ using System.Collections;
 
 public class PopUps : MonoBehaviour
 {
-    float currentTime;
+    public float currentTime;
 
     public TMP_Text currentTimeText;
 
@@ -130,14 +130,8 @@ public class PopUps : MonoBehaviour
             currentTime = currentTime + Time.deltaTime / 2;
 
             TimeSpan time = TimeSpan.FromSeconds(currentTime);
-            if (currentTime < 10)
-            {
-                currentTimeText.text = time.Minutes.ToString() + ":0" + time.Seconds.ToString();
-            }
-            else
-            {
-                currentTimeText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
-            }
+            currentTimeText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
+
     }
 
     void CheckActiveScreen()
