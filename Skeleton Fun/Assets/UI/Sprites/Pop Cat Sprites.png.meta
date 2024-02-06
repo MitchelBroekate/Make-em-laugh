@@ -1,0 +1,1834 @@
+fileFormatVersion: 2
+guid: c22a78dbb58218243801cbf7815d03f6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pop Cat Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6260
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d942219a45631d40baa7ac74b69dfc7
+      internalID: 355168717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 6260
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b5ec47eeef3cd44a1389f7b8158400
+      internalID: -1021698222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 6260
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bace76e0ce217a4b870a7251272f20d
+      internalID: -771246030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 6260
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c398bb439c1e5204f95a84b21cc7d1fc
+      internalID: 2116078407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 6260
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6449c6370be1ad42bd4836072998319
+      internalID: -119285168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 6260
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfef8f8fc817bfb4c99e9a13f7866ea0
+      internalID: -2044579984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 6260
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabe87e5bfd0578479137cebbb7e9efc
+      internalID: -1375172697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5634
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63c06c9f34b49747b8574c4f691a7d8
+      internalID: -254111617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 5634
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864ecc5a0ef3e014bbc7b23b242351cd
+      internalID: 1931883349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 5634
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e1baaecd7a4594592376f1fceb230e
+      internalID: -406691910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 5634
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae48dc4e1b0dcf94da450c708fdab966
+      internalID: -697643094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 5634
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e3aab42f7240c45a8f0c9efa27b25d
+      internalID: 1498738193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 5634
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8b1139e5830f9468e1bf409ff1a1e2
+      internalID: -1508151094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 5634
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebad75e432acba4da1382736523de1e
+      internalID: -1989786625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5008
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e4a45495c3b8a48bb791d046addb2e
+      internalID: 512160664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 5008
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291663b9a74dc4a42b39c85f312d7425
+      internalID: 1820391913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 5008
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00c63e2fd3c29344a69947fe9dde191
+      internalID: -1291834570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 5008
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b352dd3c3d3374d99ad136dc6d7baf
+      internalID: -499754049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 5008
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a1061ee9f3e734295e4b35e63cd5d8
+      internalID: -775451114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 5008
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a929db617cf37046959e1787be1c629
+      internalID: -1114026720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 5008
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa05c4d5bf8a9f478404928266e1900
+      internalID: 1382439954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4382
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d317199d4f34d70449adf5874dbee40e
+      internalID: -1707583059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 4382
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91aa32bf5e421b94a992e27cd3e2ef2b
+      internalID: 1811391439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 4382
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16d1757b51ba77479794477360b0427
+      internalID: -1072618800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 4382
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2835ce2d6e3abae418266b2dff2bdc76
+      internalID: 1923705878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 4382
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01878e14d9bc0c4bacd07a7de79854e
+      internalID: -733971940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 4382
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7995bd6470870ba4a95784055bd4695e
+      internalID: 1752309467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 4382
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2839836ee8cbf6546ac57257f918728d
+      internalID: 1421985701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3756
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db67cc0e053cf6049be45a8bffe3a8ed
+      internalID: -1465888029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 3756
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb96cdbbe54fd648b50201a431aeb02
+      internalID: 1125453530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 3756
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb77c5178c156f241abfd8b876e07eb6
+      internalID: -1034216404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 3756
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab116de4f980ff04c9ed218de07362b1
+      internalID: -1101500001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 3756
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3afab9b35e2eaf4ea882fce9bade8de
+      internalID: -968928301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 3756
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2a2f507b2b4b741af4f06931856704
+      internalID: -274188112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 3756
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84952331ef43a0246878c2a31aab6f51
+      internalID: -585231783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3130
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f52dd9064d11d43b40284eda560baf
+      internalID: 912755436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 3130
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff61d416524cf9429d76de0f26d2e51
+      internalID: -1659419340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 3130
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208395860120cd64482827ed603aa2ec
+      internalID: -158497720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 3130
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fad7549dba3d334d83d1034e85e3e2f
+      internalID: 610054770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 3130
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091c4829d9b84a2438bafd5842b70331
+      internalID: -621813690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 3130
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86abf7be6a84f954dadaf0ddcd5e3ffc
+      internalID: 582639395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 3130
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50c1abab69e97042a585556a7604029
+      internalID: 1497047112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2504
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1d401c9dceb6c40809286bba96f391
+      internalID: -1507677393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 2504
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b4a07dd2d3b5441b0296909204101b
+      internalID: -1612460644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 2504
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6e81c6642006444a5ffaca37863185
+      internalID: -934002727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 2504
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4715c27bb3c26ce46abb106892bdc7a0
+      internalID: 1891098712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 2504
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4dad4e5338e244faeab28a2d1de44b
+      internalID: -103365624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 2504
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170abe9727b6211419351c11445b41d7
+      internalID: 668803502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 2504
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ee9d4ae6ddf6a4fa96746881f41eb9
+      internalID: -833083277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1878
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0d7e82c2e106d468a269f0325a828b
+      internalID: -1151414448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1878
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d293148493090479066d685f9dfb6e
+      internalID: 1141017643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 1878
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54093fa9d5467e748bf86ab46165456a
+      internalID: -1168481518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1878
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82b3547b15459548be11356035b71e6
+      internalID: 181908592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 1878
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f28dfb318c2d14f822f450b60dcfa7
+      internalID: -1522859573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 1878
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ebe4f00594b3d4e8de7d3d5104053e
+      internalID: -759167470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 1878
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16535940070fcd6498e1da40ec9584d3
+      internalID: -431170690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1252
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cea234aa553d5b4c97bf30718e3d38b
+      internalID: 452493791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_57
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1252
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a68eb287e12c74e8d1e4b6800b17df
+      internalID: -2088121659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 1252
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e77813e19b708e47b9b7940acc157b0
+      internalID: -116560590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_59
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1252
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94dfe2ac979dbfb4bb1f1c66b99f80c2
+      internalID: -1536663264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_60
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 1252
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fde1559e76f384e8c36f1153f54a9f
+      internalID: 1159935895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 1252
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d787ff960a182449990149bdcff1c32
+      internalID: 1196732061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_62
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 1252
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e898160577c25e347814b62def1194b0
+      internalID: 1188540220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 626
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ec398a59f888e4a9352b4d637e88ba
+      internalID: 1148964281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_64
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 626
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019e739a63bb8bd4c9dcb96c81e23ca1
+      internalID: 1449868946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_65
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 626
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cab5a3107106745a6751dbc54c92ab
+      internalID: -450610806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_66
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 626
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5795825565a7bab4f937391060e6ab21
+      internalID: -1688057198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_67
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 626
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e567053131a9cfc409918c2abb9d8305
+      internalID: -1907434250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_68
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 626
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b289b9fb781cfff4dbf9412b905edc46
+      internalID: -207603784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_69
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 626
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7cbb8aed8d8d0439776476ee1518eb
+      internalID: -1714709312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f3a78c3d2c83a44932163f92586fd8
+      internalID: -328299004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_71
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 0
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbe69a92888e4e46a28a921d22db701
+      internalID: -382246376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_72
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 0
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb585f03f035b5459f59db962452cb6
+      internalID: 1534239331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_73
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 0
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f63dcc074db0ff46b5436db6ea67905
+      internalID: 1623750471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_74
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 0
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcd6be673873b745b2d54f4ca1dbca7
+      internalID: -1744307447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_75
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 0
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1b6389e590a7144805eb95c66a4b7e
+      internalID: -911934509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pop Cat Sprites_76
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 0
+        width: 639
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffc175de06b5074bbb72570a63310f2
+      internalID: 199086693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0a74228e31539104f87bd434d03f2ba0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Pop Cat Sprites_0: 355168717
+      Pop Cat Sprites_1: -1021698222
+      Pop Cat Sprites_10: -697643094
+      Pop Cat Sprites_11: 1498738193
+      Pop Cat Sprites_12: -1508151094
+      Pop Cat Sprites_13: -1989786625
+      Pop Cat Sprites_14: 512160664
+      Pop Cat Sprites_15: 1820391913
+      Pop Cat Sprites_16: -1291834570
+      Pop Cat Sprites_17: -499754049
+      Pop Cat Sprites_18: -775451114
+      Pop Cat Sprites_19: -1114026720
+      Pop Cat Sprites_2: -771246030
+      Pop Cat Sprites_20: 1382439954
+      Pop Cat Sprites_21: -1707583059
+      Pop Cat Sprites_22: 1811391439
+      Pop Cat Sprites_23: -1072618800
+      Pop Cat Sprites_24: 1923705878
+      Pop Cat Sprites_25: -733971940
+      Pop Cat Sprites_26: 1752309467
+      Pop Cat Sprites_27: 1421985701
+      Pop Cat Sprites_28: -1465888029
+      Pop Cat Sprites_29: 1125453530
+      Pop Cat Sprites_3: 2116078407
+      Pop Cat Sprites_30: -1034216404
+      Pop Cat Sprites_31: -1101500001
+      Pop Cat Sprites_32: -968928301
+      Pop Cat Sprites_33: -274188112
+      Pop Cat Sprites_34: -585231783
+      Pop Cat Sprites_35: 912755436
+      Pop Cat Sprites_36: -1659419340
+      Pop Cat Sprites_37: -158497720
+      Pop Cat Sprites_38: 610054770
+      Pop Cat Sprites_39: -621813690
+      Pop Cat Sprites_4: -119285168
+      Pop Cat Sprites_40: 582639395
+      Pop Cat Sprites_41: 1497047112
+      Pop Cat Sprites_42: -1507677393
+      Pop Cat Sprites_43: -1612460644
+      Pop Cat Sprites_44: -934002727
+      Pop Cat Sprites_45: 1891098712
+      Pop Cat Sprites_46: -103365624
+      Pop Cat Sprites_47: 668803502
+      Pop Cat Sprites_48: -833083277
+      Pop Cat Sprites_49: -1151414448
+      Pop Cat Sprites_5: -2044579984
+      Pop Cat Sprites_50: 1141017643
+      Pop Cat Sprites_51: -1168481518
+      Pop Cat Sprites_52: 181908592
+      Pop Cat Sprites_53: -1522859573
+      Pop Cat Sprites_54: -759167470
+      Pop Cat Sprites_55: -431170690
+      Pop Cat Sprites_56: 452493791
+      Pop Cat Sprites_57: -2088121659
+      Pop Cat Sprites_58: -116560590
+      Pop Cat Sprites_59: -1536663264
+      Pop Cat Sprites_6: -1375172697
+      Pop Cat Sprites_60: 1159935895
+      Pop Cat Sprites_61: 1196732061
+      Pop Cat Sprites_62: 1188540220
+      Pop Cat Sprites_63: 1148964281
+      Pop Cat Sprites_64: 1449868946
+      Pop Cat Sprites_65: -450610806
+      Pop Cat Sprites_66: -1688057198
+      Pop Cat Sprites_67: -1907434250
+      Pop Cat Sprites_68: -207603784
+      Pop Cat Sprites_69: -1714709312
+      Pop Cat Sprites_7: -254111617
+      Pop Cat Sprites_70: -328299004
+      Pop Cat Sprites_71: -382246376
+      Pop Cat Sprites_72: 1534239331
+      Pop Cat Sprites_73: 1623750471
+      Pop Cat Sprites_74: -1744307447
+      Pop Cat Sprites_75: -911934509
+      Pop Cat Sprites_76: 199086693
+      Pop Cat Sprites_8: 1931883349
+      Pop Cat Sprites_9: -406691910
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

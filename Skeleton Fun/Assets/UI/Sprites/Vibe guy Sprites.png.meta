@@ -1,0 +1,2296 @@
+fileFormatVersion: 2
+guid: ec017006d990d8340a7ea8c267edc546
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vibe guy Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4731
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f922e5f61219d47a871e76c9de6679
+      internalID: -355185179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 4731
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd123039a9c14bb488bae108c72c574a
+      internalID: -1452200091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 4731
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb068880767f0747a5597646f3651e2
+      internalID: 730388902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 4731
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a410b29892e014a92041e3b9adc909
+      internalID: -1235838337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 4731
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483fdf6ef8293ce49af3578eacb0f45f
+      internalID: -1249768172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 4731
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147bf935b45cc5f408fc20bb3cc0305f
+      internalID: 1694552629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 4731
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c54e4c206f65b54697490874a5990e9
+      internalID: -1450138716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4392
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fefc2ab9d00ff44a8aec23ff13cfdde
+      internalID: -750156911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 4392
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c68f0435ed014841bec0b8fa81b1120
+      internalID: -2068766869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 4392
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93912ca31d7e4fa438cfc0f61fdaee27
+      internalID: -1709793782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 4392
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a256c39af071f6c4f83f4c906a248820
+      internalID: 467709736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 4392
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3285ef70351371b4cad3769edea92ae7
+      internalID: -1207411355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 4392
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499b6fa0607658b4f8279f181e143995
+      internalID: -776846992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 4392
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ab46ef9e5fd4749ad3dc958f56a1f5
+      internalID: -1557340627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4053
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f12affb71e024d4ca95812375e22af0
+      internalID: 78367201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 4053
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd26bc7f4ad1dbb45b444b01ff2f73d3
+      internalID: 1973903395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 4053
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc8140bca6445041a2d21311025b3c5
+      internalID: -1901753193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 4053
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c243bce77c1d404fb741ac83b7cccc6
+      internalID: 1806856276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 4053
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c3ac5f6451fd5478c86f24c49fd637
+      internalID: 687103839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 4053
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d042ba8b030a21b42a7ec100881916fd
+      internalID: -2019384013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 4053
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2082bede7cf644443954830b707e3b68
+      internalID: 323863333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3714
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcf214d9ac796f4887892b9a0a3fb96
+      internalID: 302960186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 3714
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49c65c408bcd7747a02e47f8782addf
+      internalID: -1266365919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 3714
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1887164a42bbd441a1f6231393c5844
+      internalID: 2142756397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 3714
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8833278f0a22a2d49b8ce2dbf95b94c7
+      internalID: 1518349762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 3714
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbfbb9df968e14458c3a7a6d14a9019
+      internalID: -641620318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 3714
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4bfaf9352a33d4990a38e6dd0cd000
+      internalID: 1979398748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 3714
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a368bca8a5f6d234a827c2332da053db
+      internalID: 109265864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3375
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d157d8c00a3a02d4db349a713c0026c3
+      internalID: -604048229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 3375
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e86d36f26813d34b8842d5ff63d583a
+      internalID: 526249976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 3375
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6ccbae1d23fc3478b488d93d0f9e52
+      internalID: -188865580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 3375
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6eb53c95d604e4c8e4433f4e61f2b8
+      internalID: -533550974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 3375
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7eeba6180c36f4195b33a8c0e6f5a5
+      internalID: -1240501156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 3375
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684e052225b559d4c9b8ebe98aba7647
+      internalID: -423318504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 3375
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88e02f10a6a2c343b08033248586bfb
+      internalID: -2130471648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3036
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79d9e824243b9942afd564e19a99520
+      internalID: 1206127645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 3036
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1fa20d96afb9545b4eeae6ac8d205b
+      internalID: -1407368361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 3036
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4f950695d0b2a42b680ca9a75e8e85
+      internalID: -361116235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 3036
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d524db609b8e28d4bb454d8ab3b08436
+      internalID: 1119319108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 3036
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb9bb2658365b447aeb80a56a3b3b4d
+      internalID: -1802753504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 3036
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508fc33d57118554290bbb4e87e0867d
+      internalID: 364084550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 3036
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f56e62cc7ee0bb41b93c10cdc92803a
+      internalID: 769928511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2697
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc6236d6ad858140a6759290c3d0337
+      internalID: -1489804552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 2697
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4acedb519f72bd846bcdd27ad185308b
+      internalID: 595396718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 2697
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd1b6fecfa7ba643b9da46797da5728
+      internalID: 1083667742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 2697
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018b56dfde9e2684a9b8d4665a88cdc0
+      internalID: 1482589186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 2697
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78f30d72d6cf3e4a8785df94e7397ea
+      internalID: 791980831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 2697
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a51485f0cd39ca4fb190b68a51500cd
+      internalID: 340828275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_48
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 2697
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a63457eeeafdc4c85a37c4c2221c5a
+      internalID: 1921012888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2358
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0098748ae5f2c14e833ef2eb87c6c9c
+      internalID: -509505477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_50
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 2358
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f280a5450d42c82439fad617f84e841d
+      internalID: -827065285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_51
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 2358
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19814fc0e4059644b1fa3ec5fe1bf6d
+      internalID: 494875592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_52
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 2358
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df05246e57c21af47a9087088e3660d3
+      internalID: -1448722761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_53
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 2358
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ebd6687934729419e084f42fa9ae9c
+      internalID: 136136645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 2358
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19610495f36b4454cacb9b3692cd9f60
+      internalID: 641098231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 2358
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76aad1973c1dd74eb53887df733f094
+      internalID: 218545720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2019
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec02be7f655db74997a37678392c338
+      internalID: 446929838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_57
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 2019
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fd6ef266fe02e43b73d1afbff7335f
+      internalID: -345123944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_58
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 2019
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bada06d0345bc1140b05e91977506796
+      internalID: -1940372693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_59
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 2019
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89717d387dd28bc468319a2f8fffddd9
+      internalID: -1060132839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_60
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 2019
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55dfa6f449b3bd4ba88dd7bb6c16e0f
+      internalID: 1133497167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_61
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 2019
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9f20437a2179b41817d3d9a85e152a
+      internalID: 1227567216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_62
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 2019
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6f444563be5d84b825791311f034f8
+      internalID: -1702069150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb18c29ca2b11246be6db4f3e7530ca
+      internalID: -1782614155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_64
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1680
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc6ae2c603cf7845942c32c9f0394ac
+      internalID: -1246240513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_65
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1680
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8c267fcb75b504e95af4c7e3452bb8
+      internalID: 615679609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_66
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 1680
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9feb235874bab14997da1906bb121b1
+      internalID: -1547874993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_67
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 1680
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed8e1dbdd6844549a4451350bcc00ce
+      internalID: -1173402315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_68
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 1680
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b9864f89de445479821937a9122759
+      internalID: -71497169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_69
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 1680
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0805caf29b770ef44b605d53f331439e
+      internalID: 414513186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1341
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b7553415b0b5c4dae983ee09421181
+      internalID: -401650680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_71
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1341
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3daa5a9b6ec964eb3e709a724e76d5
+      internalID: -389600919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_72
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1341
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b29233af5104d48970ea3dac7e5f9c
+      internalID: -717905528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_73
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 1341
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b0d8df2e4f7634d87ad2f4967cad56
+      internalID: 1600079119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_74
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 1341
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281fe9e85531a41438704ea5d8dc1aff
+      internalID: -1098950131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_75
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 1341
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbc55e99fdf19e4d9cba1442a500f60
+      internalID: 1643274196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_76
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 1341
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34262abb8bbb2945ae7ad0c089bf62c
+      internalID: -232476071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1002
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7862803ab71b25c4caca94650256c35c
+      internalID: 1945044156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_78
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1002
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6263daec98511bd4683dc94c20f00ade
+      internalID: -624520549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_79
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1002
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd21f21bda12e644485a8c5d9c836e4e
+      internalID: 376470460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_80
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 1002
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4246c446ce96e2f4a84b4d4b81c53070
+      internalID: -1575514318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_81
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 1002
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09475af33e0250e4e9533c323594ac2b
+      internalID: -1312560218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_82
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 1002
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b329576f0929041871a6527650e7e9
+      internalID: 2145265930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_83
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 1002
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86a71258cc818e488d043a80a74522e
+      internalID: 1852832129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 663
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a1fd0dc7b107d4caf28fc4717f495e
+      internalID: 1635107248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_85
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 663
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92e4c872c71e744098d6a7de8262301
+      internalID: -1652339558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_86
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 663
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e12087b2b686645883665daf66d420
+      internalID: 815163820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_87
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 663
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e22c0da516d9140aa57c590a89d8db
+      internalID: -1008593670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_88
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 663
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef366624b9199ee48971753f583c0f43
+      internalID: -1091360184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_89
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 663
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3b09d07b172c8479779d7a72b2be17
+      internalID: -744364692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_90
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 663
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cffc869da165b4c814469e6aa72ed0
+      internalID: -1367070556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09912d5c2ac747b4680bbde7030a010f
+      internalID: -1070747796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_92
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 324
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ddc078ad6685e47b1b3ead45e42d76
+      internalID: -310918670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_93
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 324
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458b6ce084ac0df48ba9d270b3a58c43
+      internalID: 505681391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_94
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 324
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04b7d327144d8f4488ef9240844ac08
+      internalID: 363463311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_95
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 324
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f527566b12507043b89b3d6e119d8d0
+      internalID: 344140532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_96
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 324
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74f11672820b1348b0d4bfd187680e8
+      internalID: -1558733446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vibe guy Sprites_97
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 324
+        width: 599
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c72664b5d2f4884aac164ac81d774c2
+      internalID: -1976388913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c8accf7cca3b1944a8a007f4e191bcc0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Vibe guy Sprites_0: -355185179
+      Vibe guy Sprites_1: -1452200091
+      Vibe guy Sprites_10: 467709736
+      Vibe guy Sprites_11: -1207411355
+      Vibe guy Sprites_12: -776846992
+      Vibe guy Sprites_13: -1557340627
+      Vibe guy Sprites_14: 78367201
+      Vibe guy Sprites_15: 1973903395
+      Vibe guy Sprites_16: -1901753193
+      Vibe guy Sprites_17: 1806856276
+      Vibe guy Sprites_18: 687103839
+      Vibe guy Sprites_19: -2019384013
+      Vibe guy Sprites_2: 730388902
+      Vibe guy Sprites_20: 323863333
+      Vibe guy Sprites_21: 302960186
+      Vibe guy Sprites_22: -1266365919
+      Vibe guy Sprites_23: 2142756397
+      Vibe guy Sprites_24: 1518349762
+      Vibe guy Sprites_25: -641620318
+      Vibe guy Sprites_26: 1979398748
+      Vibe guy Sprites_27: 109265864
+      Vibe guy Sprites_28: -604048229
+      Vibe guy Sprites_29: 526249976
+      Vibe guy Sprites_3: -1235838337
+      Vibe guy Sprites_30: -188865580
+      Vibe guy Sprites_31: -533550974
+      Vibe guy Sprites_32: -1240501156
+      Vibe guy Sprites_33: -423318504
+      Vibe guy Sprites_34: -2130471648
+      Vibe guy Sprites_35: 1206127645
+      Vibe guy Sprites_36: -1407368361
+      Vibe guy Sprites_37: -361116235
+      Vibe guy Sprites_38: 1119319108
+      Vibe guy Sprites_39: -1802753504
+      Vibe guy Sprites_4: -1249768172
+      Vibe guy Sprites_40: 364084550
+      Vibe guy Sprites_41: 769928511
+      Vibe guy Sprites_42: -1489804552
+      Vibe guy Sprites_43: 595396718
+      Vibe guy Sprites_44: 1083667742
+      Vibe guy Sprites_45: 1482589186
+      Vibe guy Sprites_46: 791980831
+      Vibe guy Sprites_47: 340828275
+      Vibe guy Sprites_48: 1921012888
+      Vibe guy Sprites_49: -509505477
+      Vibe guy Sprites_5: 1694552629
+      Vibe guy Sprites_50: -827065285
+      Vibe guy Sprites_51: 494875592
+      Vibe guy Sprites_52: -1448722761
+      Vibe guy Sprites_53: 136136645
+      Vibe guy Sprites_54: 641098231
+      Vibe guy Sprites_55: 218545720
+      Vibe guy Sprites_56: 446929838
+      Vibe guy Sprites_57: -345123944
+      Vibe guy Sprites_58: -1940372693
+      Vibe guy Sprites_59: -1060132839
+      Vibe guy Sprites_6: -1450138716
+      Vibe guy Sprites_60: 1133497167
+      Vibe guy Sprites_61: 1227567216
+      Vibe guy Sprites_62: -1702069150
+      Vibe guy Sprites_63: -1782614155
+      Vibe guy Sprites_64: -1246240513
+      Vibe guy Sprites_65: 615679609
+      Vibe guy Sprites_66: -1547874993
+      Vibe guy Sprites_67: -1173402315
+      Vibe guy Sprites_68: -71497169
+      Vibe guy Sprites_69: 414513186
+      Vibe guy Sprites_7: -750156911
+      Vibe guy Sprites_70: -401650680
+      Vibe guy Sprites_71: -389600919
+      Vibe guy Sprites_72: -717905528
+      Vibe guy Sprites_73: 1600079119
+      Vibe guy Sprites_74: -1098950131
+      Vibe guy Sprites_75: 1643274196
+      Vibe guy Sprites_76: -232476071
+      Vibe guy Sprites_77: 1945044156
+      Vibe guy Sprites_78: -624520549
+      Vibe guy Sprites_79: 376470460
+      Vibe guy Sprites_8: -2068766869
+      Vibe guy Sprites_80: -1575514318
+      Vibe guy Sprites_81: -1312560218
+      Vibe guy Sprites_82: 2145265930
+      Vibe guy Sprites_83: 1852832129
+      Vibe guy Sprites_84: 1635107248
+      Vibe guy Sprites_85: -1652339558
+      Vibe guy Sprites_86: 815163820
+      Vibe guy Sprites_87: -1008593670
+      Vibe guy Sprites_88: -1091360184
+      Vibe guy Sprites_89: -744364692
+      Vibe guy Sprites_9: -1709793782
+      Vibe guy Sprites_90: -1367070556
+      Vibe guy Sprites_91: -1070747796
+      Vibe guy Sprites_92: -310918670
+      Vibe guy Sprites_93: 505681391
+      Vibe guy Sprites_94: 363463311
+      Vibe guy Sprites_95: 344140532
+      Vibe guy Sprites_96: -1558733446
+      Vibe guy Sprites_97: -1976388913
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
