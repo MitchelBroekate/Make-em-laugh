@@ -14,8 +14,12 @@ public class ClickUp : MonoBehaviour
     public AudioSource source;
     public AudioClip clip;
 
+    public GameObject scripts;
+    Death death;
+
     private void Start()
     {
+        death = scripts.GetComponent<Death>();
         rotateDirection = 20 * Time.deltaTime;
     }
     private void Awake()
@@ -32,7 +36,11 @@ public class ClickUp : MonoBehaviour
             StartCoroutine(ClickCooldown(randomF));
         }
 
-        skeletonRotate.Rotate(0, 0, rotateDirection, Space.Self);
+        if (!death.dead)
+        {
+            skeletonRotate.Rotate(0, 0, rotateDirection, Space.Self);
+        }
+
 
     }
     public void Click()

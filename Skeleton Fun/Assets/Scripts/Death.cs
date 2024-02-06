@@ -7,6 +7,7 @@ public class Death : MonoBehaviour
     public GameObject scripts;
     PopUps popUps;
     float timeScore;
+    public bool dead;
     void Start()
     {
         popUps = scripts.GetComponent<PopUps>();
@@ -20,6 +21,8 @@ public class Death : MonoBehaviour
         if(collision.gameObject.tag == "Death")
         {
             Time.timeScale = 0f;
+
+            dead = true;
 
             timeScore = popUps.time;
         }

@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using TMPro;
+using System.Collections;
 
 public class PopUps : MonoBehaviour
 {
@@ -32,13 +33,23 @@ public class PopUps : MonoBehaviour
 
     public GameObject mainMenu;
 
+    public GameObject confetti;
+
+    public GameObject scripts;
+    Death death;
+
+    private void Start()
+    {
+        death = scripts.GetComponent<Death>();
+    }
+
     void Update()
     {
         TimeCheck();
         SpawnAd();
         LiveTimer();
         CheckActiveScreen();
-
+        ConfettiPop();
     }
 
     void TimeCheck()
@@ -73,6 +84,26 @@ public class PopUps : MonoBehaviour
             waitTime = 1 * 2;
 
             popUpAmount = 4;
+        }
+    }
+
+    void ConfettiPop()
+    {
+        if (currentTime == 40 * 2)
+        {
+            StartCoroutine(ConfettiTimer());
+        }
+        if (currentTime == 100 * 2)
+        {
+            StartCoroutine(ConfettiTimer());
+        }
+        if (currentTime == 300 * 2)
+        {
+            StartCoroutine(ConfettiTimer());
+        }
+        if (currentTime > 499 * 2)
+        {
+            confetti.SetActive(true);
         }
     }
 
@@ -111,14 +142,18 @@ public class PopUps : MonoBehaviour
 
     void CheckActiveScreen()
     {
-        if (mainMenu.activeInHierarchy == true)
+        if (!death.dead)
         {
-            Time.timeScale = 0f;
+            if (mainMenu.activeInHierarchy == true)
+            {
+                Time.timeScale = 0f;
+            }
+            else
+            {
+                Time.timeScale = 2f;
+            }
         }
-        else
-        {
-            Time.timeScale = 2f;
-        }
+
     }
 
     void GetBoundryLocation()
@@ -134,7 +169,7 @@ public class PopUps : MonoBehaviour
         randomPos.x = UnityEngine.Random.Range(scaleBoundry.x, Screen.width - scaleBoundry.x);
         randomPos.y = UnityEngine.Random.Range(scaleBoundry.y, Screen.height - scaleBoundry.y);
 
-       Vector3 posInworld = cam.ScreenToWorldPoint(new Vector3(randomPos.x, randomPos.y, 81));
+       Vector3 posInworld = cam.ScreenToWorldPoint(new Vector3(randomPos.x, randomPos.y, 200));
 
         return posInworld;
     }
@@ -144,5 +179,13 @@ public class PopUps : MonoBehaviour
         activeAd = Instantiate(spawnPopUp, posToSpawnAt, Quaternion.identity);
 
         activeAd.transform.parent = canvas.transform;
+    }
+
+    IEnumerator ConfettiTimer()
+    {
+        confetti.SetActive(true);
+        yield return new WaitForSeconds(4);
+        confetti.SetActive(false);
+        StopAllCoroutines();
     }
 }
