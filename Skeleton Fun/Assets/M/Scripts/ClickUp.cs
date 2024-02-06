@@ -36,6 +36,8 @@ public class ClickUp : MonoBehaviour
     }
     public void Click()
     {
+
+
         if (!clickCheck) 
         {
 

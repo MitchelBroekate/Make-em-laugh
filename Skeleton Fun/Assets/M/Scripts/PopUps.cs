@@ -1,6 +1,6 @@
+using System;
 using UnityEngine;
 using TMPro;
-using System;
 
 public class PopUps : MonoBehaviour
 {
@@ -10,64 +10,68 @@ public class PopUps : MonoBehaviour
 
     int popUpAmount;
 
-    GameObject spawnPopUP;
+    GameObject spawnPopUp;
+    GameObject activeAd;
+    public GameObject canvas;
+
+    Vector3 scaleBoundry;
+
+    SpriteRenderer rendererS;
 
     float time = 0f;
     float waitTime;
 
-    Bounds bounds;
-
     [Header("Pop-Ups")]
     public GameObject[] popUps;
 
-    private void Start()
-    {
-        bounds = new Bounds(new Vector3(0, 0, 0), new Vector3(10, 20, 10));
-    }
-    private void Update()
+    Vector2 randomPos;
+
+    public Camera cam;
+
+    void Update()
     {
         TimeCheck();
-        SpawnMoment();
+        SpawnAd();
         LiveTimer();
 
     }
 
-    private void TimeCheck()
+    void TimeCheck()
     {
 
-        if (currentTime <= 40)
+        if (currentTime <= 40 * 2)
         {
-            waitTime = 4;
+            waitTime = 4 * 2;
 
             popUpAmount = 1;
         }
-        if (currentTime > 40 && currentTime <= 100)
+        if (currentTime > 40 * 2 && currentTime <= 100 * 2)
         {
-            waitTime = 3;
+            waitTime = 3 * 2;
 
             popUpAmount = 2;
         }
-        if (currentTime > 100 && currentTime <= 300)
+        if (currentTime > 100 * 2 && currentTime <= 300 * 2)
         {
-            waitTime = 2;
+            waitTime = 2 * 2;
 
             popUpAmount = 3;
         }
-        if (currentTime > 300 && currentTime <= 500)
+        if (currentTime > 300 * 2 && currentTime <= 500 * 2)
         {
-            waitTime = 2;
+            waitTime = 2 * 2;
 
             popUpAmount = 5;
         }
-        if (currentTime > 500)
+        if (currentTime > 500 * 2)
         {
-            waitTime = 1;
+            waitTime = 1 * 2;
 
             popUpAmount = 4;
         }
     }
 
-    private void SpawnMoment()
+    void SpawnAd()
     {
         time += Time.deltaTime;
 
@@ -75,21 +79,54 @@ public class PopUps : MonoBehaviour
         {
             time = 0f;
 
-            for (int i = 0; i <= popUpAmount; i++)
+            for (int i = 0; i < popUpAmount; i++)
             {
-                spawnPopUP = popUps[UnityEngine.Random.Range(0, popUps.Length)];
-
-                Instantiate(spawnPopUP);
+                spawnPopUp = popUps[UnityEngine.Random.Range(0, popUps.Length)];
+                GetBoundryLocation();
+                Spawner(RandomSpawnLocation());
             }
         }
 
     }
 
-    private void LiveTimer()
+    void LiveTimer()
     {
         currentTime = currentTime + Time.deltaTime / 2;
 
         TimeSpan time = TimeSpan.FromSeconds(currentTime);
-        currentTimeText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
+        if(currentTime < 10)
+        {
+            currentTimeText.text = time.Minutes.ToString() + ":0" + time.Seconds.ToString();
+        }
+        else
+        {
+            currentTimeText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
+        }
+
+    }
+
+    void GetBoundryLocation()
+    {
+        rendererS = spawnPopUp.GetComponent<SpriteRenderer>();
+
+        scaleBoundry.x = rendererS.bounds.size.x / 2;
+        scaleBoundry.y = rendererS.bounds.size.y / 2;
+    }
+
+    private Vector3 RandomSpawnLocation()
+    {
+        randomPos.x = UnityEngine.Random.Range(scaleBoundry.x, Screen.width - scaleBoundry.x);
+        randomPos.y = UnityEngine.Random.Range(scaleBoundry.y, Screen.height - scaleBoundry.y);
+
+       Vector3 posInworld = cam.ScreenToWorldPoint(new Vector3(randomPos.x, randomPos.y, 81));
+
+        return posInworld;
+    }
+
+    void Spawner(Vector3 posToSpawnAt)
+    {
+        activeAd = Instantiate(spawnPopUp, posToSpawnAt, Quaternion.identity);
+
+        activeAd.transform.parent = canvas.transform;
     }
 }
