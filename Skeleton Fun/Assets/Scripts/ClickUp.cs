@@ -11,7 +11,8 @@ public class ClickUp : MonoBehaviour
     float randomF;
     public Transform skeletonRotate;
     float rotateDirection;
-    AudioSource source;
+    public AudioSource source;
+    public AudioClip clip;
 
     private void Start()
     {
@@ -38,7 +39,8 @@ public class ClickUp : MonoBehaviour
     public void Click()
     {
 
-        
+        source.clip = clip;
+        source.Play();
 
         if (!clickCheck) 
         {
