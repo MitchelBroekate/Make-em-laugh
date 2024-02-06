@@ -16,7 +16,6 @@ public class ClickUp : MonoBehaviour
 
     private void Start()
     {
-        Time.timeScale = 2.0f;
         rotateDirection = 20 * Time.deltaTime;
     }
     private void Awake()

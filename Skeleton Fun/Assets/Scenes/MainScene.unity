@@ -1907,7 +1907,7 @@ GameObject:
   - component: {fileID: 606308171}
   m_Layer: 0
   m_Name: GameObject (2)
-  m_TagString: Untagged
+  m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7202,6 +7202,8 @@ MonoBehaviour:
   - {fileID: 6660390399082913552, guid: 02389240b5854f84dacde59f87f89859, type: 3}
   - {fileID: 7957089658936994528, guid: 9379de86d9643fa4b9ee732e4b9e23cb, type: 3}
   cam: {fileID: 2071173161}
+  timerActive: 0
+  mainMenu: {fileID: 804332388}
 --- !u!114 &1782100173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7228,6 +7230,7 @@ GameObject:
   - component: {fileID: 1809374420}
   - component: {fileID: 1809374419}
   - component: {fileID: 1809374418}
+  - component: {fileID: 1809374421}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Player
@@ -7299,6 +7302,19 @@ Transform:
   - {fileID: 1956057332}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1809374421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809374417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058d0e1961637e242a7d765061d9f3ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scripts: {fileID: 1782100169}
 --- !u!1 &1823220104
 GameObject:
   m_ObjectHideFlags: 0

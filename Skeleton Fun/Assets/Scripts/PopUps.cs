@@ -18,7 +18,7 @@ public class PopUps : MonoBehaviour
 
     SpriteRenderer rendererS;
 
-    float time = 0f;
+    public float time = 0f;
     float waitTime;
 
     [Header("Pop-Ups")]
@@ -28,11 +28,16 @@ public class PopUps : MonoBehaviour
 
     public Camera cam;
 
+    public bool timerActive;
+
+    public GameObject mainMenu;
+
     void Update()
     {
         TimeCheck();
         SpawnAd();
         LiveTimer();
+        CheckActiveScreen();
 
     }
 
@@ -91,18 +96,29 @@ public class PopUps : MonoBehaviour
 
     void LiveTimer()
     {
-        currentTime = currentTime + Time.deltaTime / 2;
+            currentTime = currentTime + Time.deltaTime / 2;
 
-        TimeSpan time = TimeSpan.FromSeconds(currentTime);
-        if(currentTime < 10)
+            TimeSpan time = TimeSpan.FromSeconds(currentTime);
+            if (currentTime < 10)
+            {
+                currentTimeText.text = time.Minutes.ToString() + ":0" + time.Seconds.ToString();
+            }
+            else
+            {
+                currentTimeText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
+            }
+    }
+
+    void CheckActiveScreen()
+    {
+        if (mainMenu.activeInHierarchy == true)
         {
-            currentTimeText.text = time.Minutes.ToString() + ":0" + time.Seconds.ToString();
+            Time.timeScale = 0f;
         }
         else
         {
-            currentTimeText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
+            Time.timeScale = 2f;
         }
-
     }
 
     void GetBoundryLocation()
