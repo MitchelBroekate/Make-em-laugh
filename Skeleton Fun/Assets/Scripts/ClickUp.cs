@@ -1,6 +1,6 @@
 using System.Collections;
 using UnityEngine;
-
+using UnityEngine.Audio;
 
 public class ClickUp : MonoBehaviour
 {
@@ -11,6 +11,7 @@ public class ClickUp : MonoBehaviour
     float randomF;
     public Transform skeletonRotate;
     float rotateDirection;
+    AudioSource source;
 
     private void Start()
     {
@@ -37,6 +38,7 @@ public class ClickUp : MonoBehaviour
     public void Click()
     {
 
+        
 
         if (!clickCheck) 
         {
