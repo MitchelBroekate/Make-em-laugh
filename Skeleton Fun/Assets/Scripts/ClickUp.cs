@@ -20,7 +20,7 @@ public class ClickUp : MonoBehaviour
     private void Start()
     {
         death = scripts.GetComponent<Death>();
-        rotateDirection = 20 * Time.deltaTime;
+        rotateDirection = 50 * Time.deltaTime;
     }
     private void Awake()
     {
@@ -65,13 +65,13 @@ public class ClickUp : MonoBehaviour
                     {
                         Debug.Log("right");
                         hit.rigidbody.velocity = new Vector3(15, 15, 0);
-                        rotateDirection = -20 * Time.deltaTime;
+                        rotateDirection = -50 * Time.deltaTime;
                     }
                     else
                     {
                         Debug.Log("left");
                         hit.rigidbody.velocity = new Vector3(-15, 15, 0);
-                        rotateDirection = 20 * Time.deltaTime;
+                        rotateDirection = 50 * Time.deltaTime;
                     }
 
                     clickCheck = true;
