@@ -55,31 +55,31 @@ public class PopUps : MonoBehaviour
     void TimeCheck()
     {
 
-        if (currentTime <= 40 * 2)
+        if (currentTime <= 40)
         {
             waitTime = 4 * 2;
 
             popUpAmount = 1;
         }
-        if (currentTime > 40 * 2 && currentTime <= 100 * 2)
+        if (currentTime > 40 && currentTime <= 100)
         {
             waitTime = 3 * 2;
 
             popUpAmount = 2;
         }
-        if (currentTime > 100 * 2 && currentTime <= 300 * 2)
+        if (currentTime > 100 && currentTime <= 300)
         {
             waitTime = 2 * 2;
 
             popUpAmount = 3;
         }
-        if (currentTime > 300 * 2 && currentTime <= 500 * 2)
+        if (currentTime > 300 && currentTime <= 500)
         {
             waitTime = 2 * 2;
 
             popUpAmount = 5;
         }
-        if (currentTime > 500 * 2)
+        if (currentTime > 500)
         {
             waitTime = 1 * 2;
 
@@ -113,14 +113,14 @@ public class PopUps : MonoBehaviour
 
         if (time >= waitTime)
         {
-            time = 0f;
-
             for (int i = 0; i < popUpAmount; i++)
             {
                 spawnPopUp = popUps[UnityEngine.Random.Range(0, popUps.Length)];
                 GetBoundryLocation();
                 Spawner(RandomSpawnLocation());
             }
+
+            time = 0f;
         }
 
     }
@@ -160,8 +160,8 @@ public class PopUps : MonoBehaviour
     {
         recT = spawnPopUp.GetComponent<RectTransform>();
 
-        scaleBoundry.x = recT.rect.width / 2;
-        scaleBoundry.y = recT.rect.height / 2;
+        scaleBoundry.x = recT.rect.width / 3;
+        scaleBoundry.y = recT.rect.height / 3;
     }
 
     private Vector3 RandomSpawnLocation()
