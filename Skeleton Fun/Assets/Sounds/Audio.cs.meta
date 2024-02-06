@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: edf5bb27045098640ad91de059965db2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - musicSlider: {instanceID: 0}
+  - sfxSlider: {instanceID: 0}
+  - allsoundsSlider: {instanceID: 0}
+  - music: {fileID: 5006108553010899166, guid: 3c3477b25e1fb794e9113452041c4720, type: 2}
+  - sfx: {fileID: -8983500569912012680, guid: 3c3477b25e1fb794e9113452041c4720, type: 2}
+  - allsounds: {fileID: 24100000, guid: 3c3477b25e1fb794e9113452041c4720, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
