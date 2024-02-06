@@ -62,18 +62,18 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|HUH.001
-      takeName: Armature|HUH.001
-      internalID: 5673228267722004346
+      name: Armature|sitting
+      takeName: Armature|sitting
+      internalID: -8469018219200488375
       firstFrame: 0
-      lastFrame: 39
+      lastFrame: 13
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
