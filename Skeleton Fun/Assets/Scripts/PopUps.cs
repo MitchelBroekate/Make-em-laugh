@@ -17,7 +17,7 @@ public class PopUps : MonoBehaviour
 
     Vector3 scaleBoundry;
 
-    SpriteRenderer rendererS;
+    RectTransform recT;
 
     public float time = 0f;
     float waitTime;
@@ -158,10 +158,10 @@ public class PopUps : MonoBehaviour
 
     void GetBoundryLocation()
     {
-        rendererS = spawnPopUp.GetComponent<SpriteRenderer>();
+        recT = spawnPopUp.GetComponent<RectTransform>();
 
-        scaleBoundry.x = rendererS.bounds.size.x / 2;
-        scaleBoundry.y = rendererS.bounds.size.y / 2;
+        scaleBoundry.x = recT.rect.width / 2;
+        scaleBoundry.y = recT.rect.height / 2;
     }
 
     private Vector3 RandomSpawnLocation()
@@ -178,7 +178,7 @@ public class PopUps : MonoBehaviour
     {
         activeAd = Instantiate(spawnPopUp, posToSpawnAt, Quaternion.identity);
 
-        activeAd.transform.parent = canvas.transform;
+        activeAd.transform.SetParent(canvas.transform);
     }
 
     IEnumerator ConfettiTimer()
