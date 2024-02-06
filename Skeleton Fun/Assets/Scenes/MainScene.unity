@@ -7363,6 +7363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d7663a5116d50743838a6ab31c0ea0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentTime: 0
   currentTimeText: {fileID: 2123158066}
   canvas: {fileID: 686544510}
   time: 0
@@ -10202,11 +10203,11 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
   NoiseModule:
-    enabled: 0
+    enabled: 1
     strength:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 100
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -10365,9 +10366,9 @@ ParticleSystem:
     separateAxes: 0
     frequency: 1
     damping: 1
-    octaves: 4
-    octaveMultiplier: 0.5
-    octaveScale: 2
+    octaves: 2
+    octaveMultiplier: 1
+    octaveScale: 1
     quality: 1
     scrollSpeed:
       serializedVersion: 2
