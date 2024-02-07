@@ -27,7 +27,10 @@ public class SkeletalClicker : MonoBehaviour
 
     bool audioDoot;
 
+    public GameObject dootTXT;
 
+    public Coroutine clicking;
+    public Coroutine dootDoot;
     private void Start()
     {
         death = scripts.GetComponent<Death>();
@@ -43,10 +46,12 @@ public class SkeletalClicker : MonoBehaviour
 
     void Update()
     {
+
+
         float grav = 1;
         if (clickCheck)
         {
-            StartCoroutine(ClickCooldown(randomF));
+            clicking = StartCoroutine(ClickCo(randomF));
         }
 
         if (!death.dead)
@@ -60,6 +65,7 @@ public class SkeletalClicker : MonoBehaviour
             }
         }
 
+        DootCheck();
     }
 
     private void OnMouseDown()
@@ -80,6 +86,7 @@ public class SkeletalClicker : MonoBehaviour
                     audioDoot = true;
                     source.clip = clipA;
                     source.Play();
+                    dootTXT.SetActive(true);
 
                     GetComponent<Rigidbody>().AddForce(Vector3.up * clickPower);
                     if (randomI == 1)
@@ -112,12 +119,27 @@ public class SkeletalClicker : MonoBehaviour
 
     }
 
-        IEnumerator ClickCooldown(float time)
+    void DootCheck()
+    {
+        if(dootTXT.activeInHierarchy == true)
+        {
+            dootDoot = StartCoroutine(DootCo(1));
+        }
+    }
+
+    IEnumerator ClickCo(float time)
     {
         yield return new WaitForSeconds(time);
 
         clickCheck = false;
-        StopAllCoroutines();
+        StopCoroutine(clicking);
+    }
+
+    IEnumerator DootCo(float dootTime)
+    {
+        yield return new WaitForSeconds(dootTime);
+
+        dootTXT.SetActive(false);
     }
 
 
