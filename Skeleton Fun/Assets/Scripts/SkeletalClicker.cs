@@ -10,6 +10,7 @@ public class SkeletalClicker : MonoBehaviour
 
     RaycastHit hit;
 
+    Interactions action;
     int randomI;
     float randomF;
     public Transform skeletonRotate;
@@ -27,11 +28,15 @@ public class SkeletalClicker : MonoBehaviour
         rotateDirection = 50 * Time.deltaTime;
     }
 
+    private void Awake()
+    {
+        action = new Interactions();
+
+        action.Click.LeftClick.performed += x => Click();
+    }
+
     void Update()
     {
-        gravityPull += pullForce * Time.deltaTime;
-        transform.Translate(Vector3.down * gravityPull);
-
         if (clickCheck)
         {
             StartCoroutine(ClickCooldown(randomF));
@@ -40,15 +45,15 @@ public class SkeletalClicker : MonoBehaviour
         if (!death.dead)
         {
             skeletonRotate.Rotate(0, 0, rotateDirection, Space.Self);
+
+            gravityPull += pullForce * Time.deltaTime;
+            transform.Translate(Vector3.down * gravityPull);
         }
 
     }
 
-    private void OnMouseUp()
+    private void OnMouseDown()
     {
-
-        source.clip = clip;
-        source.Play();
 
         if (!clickCheck)
         {
@@ -82,7 +87,13 @@ public class SkeletalClicker : MonoBehaviour
         }
     }
 
-    IEnumerator ClickCooldown(float time)
+    public void Click()
+    {
+        source.clip = clip;
+        source.Play();
+    }
+
+        IEnumerator ClickCooldown(float time)
     {
         yield return new WaitForSeconds(time);
 

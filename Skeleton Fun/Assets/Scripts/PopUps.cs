@@ -42,6 +42,8 @@ public class PopUps : MonoBehaviour
     private void Start()
     {
         death = scripts.GetComponent<Death>();
+
+        pS.Stop();
     }
 
     void Update()
@@ -164,7 +166,7 @@ public class PopUps : MonoBehaviour
         randomPos.x = UnityEngine.Random.Range(scaleBoundry.x, Screen.width - scaleBoundry.x);
         randomPos.y = UnityEngine.Random.Range(scaleBoundry.y, Screen.height - scaleBoundry.y);
 
-       Vector3 posInworld = cam.ScreenToWorldPoint(new Vector3(randomPos.x, randomPos.y, 200));
+       Vector3 posInworld = cam.ScreenToWorldPoint(new Vector3(randomPos.x, randomPos.y, 376));
 
         return posInworld;
     }
