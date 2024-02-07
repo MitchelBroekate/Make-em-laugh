@@ -5,8 +5,8 @@ using static Unity.VisualScripting.Member;
 
 public class SkeletalClicker : MonoBehaviour
 {
-    public float gravityPull = 0;
-    public float pullForce = 1;
+    public float gravityPull;
+    public float pullForce;
 
     RaycastHit hit;
 
@@ -44,10 +44,12 @@ public class SkeletalClicker : MonoBehaviour
 
         if (!death.dead)
         {
-            skeletonRotate.Rotate(0, 0, rotateDirection, Space.Self);
-
-            gravityPull += pullForce * Time.deltaTime;
-            transform.Translate(Vector3.down * gravityPull);
+            if(Time.timeScale  > 0)
+            {
+                skeletonRotate.Rotate(0, 0, rotateDirection, Space.Self);
+                gravityPull += pullForce * Time.deltaTime;
+                transform.Translate(Vector3.down * gravityPull);
+            }
         }
 
     }
@@ -105,11 +107,6 @@ public class SkeletalClicker : MonoBehaviour
     private void OnEnable()
     {
         action.Enable();
-    }
-
-    private void OnDisable()
-    {
-        action.Disable();
     }
 
 }

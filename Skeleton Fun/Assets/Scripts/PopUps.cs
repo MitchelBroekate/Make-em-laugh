@@ -39,11 +39,18 @@ public class PopUps : MonoBehaviour
     public GameObject scripts;
     Death death;
 
+    SkeletalClicker clicker;
+
+    bool conf1;
+    bool conf2;
+    bool conf3;
+
     private void Start()
     {
         death = scripts.GetComponent<Death>();
+        clicker = scripts.GetComponent<SkeletalClicker>();
 
-        pS.Stop();
+        //pS.Stop();
     }
 
     void Update()
@@ -92,17 +99,29 @@ public class PopUps : MonoBehaviour
 
     void ConfettiPop()
     {
-        if (currentTime == 40)
+        if (currentTime > 40)
         {
-            StartCoroutine(ConfettiTimer());
+            if (!conf1)
+            {
+                StartCoroutine(ConfettiTimer());
+                conf1 = true;
+            }
         }
-        if (currentTime == 100)
+        if (currentTime > 100)
         {
-            StartCoroutine(ConfettiTimer());
+            if (!conf2)
+            {
+                StartCoroutine(ConfettiTimer());
+                conf2 = true;
+            }
         }
-        if (currentTime == 300)
+        if (currentTime > 300)
         {
-            StartCoroutine(ConfettiTimer());
+            if (!conf3)
+            {
+                StartCoroutine(ConfettiTimer());
+                conf3 = true;
+            }
         }
         if (currentTime > 499)
         {
@@ -130,11 +149,10 @@ public class PopUps : MonoBehaviour
 
     void LiveTimer()
     {
-            currentTime = currentTime + Time.deltaTime / 2;
+        currentTime += (Time.deltaTime * 0.5f);
 
-            TimeSpan time = TimeSpan.FromSeconds(currentTime);
-            currentTimeText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
-
+        TimeSpan time = TimeSpan.FromSeconds(currentTime);
+        currentTimeText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
     }
 
     void CheckActiveScreen()
@@ -143,11 +161,16 @@ public class PopUps : MonoBehaviour
         {
             if (mainMenu.activeInHierarchy == true)
             {
-                Time.timeScale = 0f;
+                Time.timeScale = 0;
+                time = 0f;
+                GameObject.Find("Skeleton Collider").GetComponent<Rigidbody>().isKinematic = true;
+                clicker.pullForce = 0;
             }
             else
             {
                 Time.timeScale = 2f;
+                GameObject.Find("Skeleton Collider").GetComponent<Rigidbody>().isKinematic = false;
+                clicker.pullForce = 1;
             }
         }
 
@@ -166,7 +189,7 @@ public class PopUps : MonoBehaviour
         randomPos.x = UnityEngine.Random.Range(scaleBoundry.x, Screen.width - scaleBoundry.x);
         randomPos.y = UnityEngine.Random.Range(scaleBoundry.y, Screen.height - scaleBoundry.y);
 
-       Vector3 posInworld = cam.ScreenToWorldPoint(new Vector3(randomPos.x, randomPos.y, 376));
+        Vector3 posInworld = cam.ScreenToWorldPoint(new Vector3(randomPos.x, randomPos.y, 376));
 
         return posInworld;
     }
@@ -180,6 +203,7 @@ public class PopUps : MonoBehaviour
 
     IEnumerator ConfettiTimer()
     {
+        print("FIREWORKS!");
         pS.Play();
         yield return new WaitForSeconds(4);
         pS.Stop();

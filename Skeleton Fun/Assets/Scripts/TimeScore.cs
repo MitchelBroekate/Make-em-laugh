@@ -16,11 +16,16 @@ public class TimeScore : MonoBehaviour
         popUps = scripts.GetComponent<PopUps>();
     }
 
+    private void Update()
+    {
+        
+    }
+
     void TimeSafe()
     {
         safedTime = popUps.currentTime;
 
         TimeSpan time = TimeSpan.FromSeconds(safedTime);
-        //currentTimeText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
+        safedTimeText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
     }
 }
