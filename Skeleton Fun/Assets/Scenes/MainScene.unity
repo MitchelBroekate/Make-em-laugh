@@ -805,7 +805,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1809374420}
+    m_TransformParent: {fileID: 1543923259}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 0a4dd831db1415841963caca7c85cde8,
         type: 3}
@@ -825,12 +825,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 0a4dd831db1415841963caca7c85cde8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.6
+      value: 10.599984
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0a4dd831db1415841963caca7c85cde8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -40.4
+      value: -40.400005
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0a4dd831db1415841963caca7c85cde8,
         type: 3}
@@ -845,7 +845,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 0a4dd831db1415841963caca7c85cde8,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0a4dd831db1415841963caca7c85cde8,
         type: 3}
@@ -855,7 +855,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 0a4dd831db1415841963caca7c85cde8,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0a4dd831db1415841963caca7c85cde8,
         type: 3}
@@ -5052,7 +5052,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1141027355}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -162}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6374,6 +6374,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1537207271}
   m_CullTransparentMesh: 1
+--- !u!1 &1543923258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1543923259}
+  m_Layer: 0
+  m_Name: Skeleton Collider (1)
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1543923259
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543923258}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 214320684}
+  m_Father: {fileID: 1809374420}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1544682155
 GameObject:
   m_ObjectHideFlags: 0
@@ -7450,7 +7482,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1782100171}
   - component: {fileID: 1782100170}
-  - component: {fileID: 1782100173}
   - component: {fileID: 1782100172}
   m_Layer: 0
   m_Name: Scripts
@@ -7519,22 +7550,7 @@ MonoBehaviour:
   timerActive: 0
   mainMenu: {fileID: 804332388}
   confetti: {fileID: 1794344256}
-  scripts: {fileID: 1809374417}
---- !u!114 &1782100173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1782100169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 499268e595cf5ab488f2f49488532c02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skeletonRotate: {fileID: 1809374420}
-  source: {fileID: 2071173163}
-  clip: {fileID: 8300000, guid: 4b7e801922c84284d9da824cc9a4b195, type: 3}
+  pS: {fileID: 1794344258}
   scripts: {fileID: 1809374417}
 --- !u!1 &1794344256
 GameObject:
@@ -7553,7 +7569,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!199 &1794344257
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -12436,6 +12452,7 @@ GameObject:
   - component: {fileID: 1809374419}
   - component: {fileID: 1809374418}
   - component: {fileID: 1809374421}
+  - component: {fileID: 1809374422}
   m_Layer: 0
   m_Name: Skeleton Collider
   m_TagString: Player
@@ -12451,7 +12468,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1809374417}
   serializedVersion: 4
-  m_Mass: 0.0000001
+  m_Mass: 0.01
   m_Drag: 0
   m_AngularDrag: 0
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -12465,7 +12482,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -12504,7 +12521,7 @@ Transform:
   m_LocalScale: {x: 1.8404257, y: 1.8404257, z: 1.8404257}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 214320684}
+  - {fileID: 1543923259}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1809374421
@@ -12521,6 +12538,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scripts: {fileID: 1782100169}
   dead: 0
+--- !u!114 &1809374422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809374417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72780012409b06a44831fe5b3b7dea8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gravityPull: 0
+  pullForce: 1
+  skeletonRotate: {fileID: 1543923259}
+  source: {fileID: 2071173163}
+  clip: {fileID: 8300000, guid: 4b7e801922c84284d9da824cc9a4b195, type: 3}
+  scripts: {fileID: 1809374417}
 --- !u!1 &1822757677
 GameObject:
   m_ObjectHideFlags: 0

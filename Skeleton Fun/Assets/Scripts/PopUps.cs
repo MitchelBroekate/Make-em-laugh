@@ -34,6 +34,7 @@ public class PopUps : MonoBehaviour
     public GameObject mainMenu;
 
     public GameObject confetti;
+    public ParticleSystem pS;
 
     public GameObject scripts;
     Death death;
@@ -89,21 +90,21 @@ public class PopUps : MonoBehaviour
 
     void ConfettiPop()
     {
-        if (currentTime == 40 * 2)
+        if (currentTime == 40)
         {
             StartCoroutine(ConfettiTimer());
         }
-        if (currentTime == 100 * 2)
+        if (currentTime == 100)
         {
             StartCoroutine(ConfettiTimer());
         }
-        if (currentTime == 300 * 2)
+        if (currentTime == 300)
         {
             StartCoroutine(ConfettiTimer());
         }
-        if (currentTime > 499 * 2)
+        if (currentTime > 499)
         {
-            confetti.SetActive(true);
+            pS.Play();
         }
     }
 
@@ -177,9 +178,9 @@ public class PopUps : MonoBehaviour
 
     IEnumerator ConfettiTimer()
     {
-        confetti.SetActive(true);
+        pS.Play();
         yield return new WaitForSeconds(4);
-        confetti.SetActive(false);
+        pS.Stop();
         StopAllCoroutines();
     }
 }

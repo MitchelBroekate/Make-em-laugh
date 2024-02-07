@@ -10,6 +10,8 @@ public class ColorRandom : MonoBehaviour
     {
         c = new Vector4(Random.Range(0, 255), Random.Range(0, 255), Random.Range(0, 255), 255);
         c.Normalize();
+        c = new Vector4(c.x, c.y, c.z, 255);
+
         GetComponent<Image>().color = c;
     }
 }
