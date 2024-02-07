@@ -19,11 +19,25 @@ public class Death : MonoBehaviour
     public GameObject deathScreen;
 
     public TMP_Text timeSafedC;
+    public float previousBestTimeScore;
+
+    public TMP_Text highScoreTXT;
+    float highScore;
 
     void Start()
     {
         popUps = scripts.GetComponent<PopUps>();
         clicker = GetComponent<SkeletalClicker>();
+
+        if (PlayerPrefs.HasKey("HighScore"))
+        {
+            previousBestTimeScore = PlayerPrefs.GetFloat("HighScore");
+        }
+        else
+        {
+            PlayerPrefs.SetFloat("HighScore", 0);
+        }
+            
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -48,6 +62,8 @@ public class Death : MonoBehaviour
 
             popUps.currentTime = 0;
             popUps.time = 0f;
+
+            SafeTimeScore();
         }
 
 
@@ -61,6 +77,7 @@ public class Death : MonoBehaviour
         }
 
         TimeSafe();
+
     }
 
     void TimeSafe()
@@ -68,5 +85,25 @@ public class Death : MonoBehaviour
 
         TimeSpan time = TimeSpan.FromSeconds(timeScore);
         timeSafedC.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
+    }
+
+    void SafeTimeScore()
+    {
+        if (timeScore > previousBestTimeScore)
+        {
+            PlayerPrefs.SetFloat("HighScore", timeScore);
+
+            highScore = PlayerPrefs.GetFloat("HighScore");
+
+            TimeSpan time = TimeSpan.FromSeconds(highScore);
+            highScoreTXT.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
+        }
+        else
+        {
+            previousBestTimeScore = PlayerPrefs.GetFloat("HighScore");
+
+            TimeSpan time = TimeSpan.FromSeconds(previousBestTimeScore);
+            highScoreTXT.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
+        }
     }
 }
