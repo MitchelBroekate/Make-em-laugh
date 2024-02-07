@@ -36,6 +36,9 @@ public class PopUps : MonoBehaviour
     public GameObject confetti;
     public ParticleSystem pS;
 
+    public AudioSource audioSource;
+    public AudioClip audioClip;
+
     public GameObject scripts;
     Death death;
 
@@ -49,8 +52,8 @@ public class PopUps : MonoBehaviour
     {
         death = scripts.GetComponent<Death>();
         clicker = scripts.GetComponent<SkeletalClicker>();
-
-        //pS.Stop();
+        
+        audioSource.clip = audioClip;
     }
 
     void Update()
@@ -99,10 +102,11 @@ public class PopUps : MonoBehaviour
 
     void ConfettiPop()
     {
-        if (currentTime > 40)
+        if (currentTime > 6)
         {
             if (!conf1)
             {
+                audioSource.Play();
                 StartCoroutine(ConfettiTimer());
                 conf1 = true;
             }
@@ -111,6 +115,7 @@ public class PopUps : MonoBehaviour
         {
             if (!conf2)
             {
+                audioSource.Play();
                 StartCoroutine(ConfettiTimer());
                 conf2 = true;
             }
@@ -119,12 +124,14 @@ public class PopUps : MonoBehaviour
         {
             if (!conf3)
             {
+                audioSource.Play();
                 StartCoroutine(ConfettiTimer());
                 conf3 = true;
             }
         }
         if (currentTime > 499)
         {
+            audioSource.Play();
             pS.Play();
         }
     }

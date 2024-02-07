@@ -18,9 +18,15 @@ public class SkeletalClicker : MonoBehaviour
     public AudioSource source;
     public AudioClip clip;
     bool clickCheck;
+    public float clickPower = 1;
 
     public GameObject scripts;
     Death death;
+
+    public AudioClip clipA;
+
+    bool audioDoot;
+
 
     private void Start()
     {
@@ -37,6 +43,7 @@ public class SkeletalClicker : MonoBehaviour
 
     void Update()
     {
+        float grav = 1;
         if (clickCheck)
         {
             StartCoroutine(ClickCooldown(randomF));
@@ -47,8 +54,9 @@ public class SkeletalClicker : MonoBehaviour
             if(Time.timeScale  > 0)
             {
                 skeletonRotate.Rotate(0, 0, rotateDirection, Space.Self);
-                gravityPull += pullForce * Time.deltaTime;
-                transform.Translate(Vector3.down * gravityPull);
+                //gravityPull = pullForce * Time.deltaTime;
+                //transform.Translate(Vector3.down * gravityPull);
+                GetComponent<Rigidbody>().AddForce(Vector3.down * grav);
             }
         }
 
@@ -59,17 +67,21 @@ public class SkeletalClicker : MonoBehaviour
 
         if (!clickCheck)
         {
-            gravityPull = -1.5f;
+            //gravityPull = -1.5f;
 
             randomI = Random.Range(1, 3);
-            randomF = Random.Range(2f, 3f);
+            randomF = Random.Range(2f, 2.4f);
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
             if (Physics.Raycast(ray, out hit, 10000))
             {
                 if (hit.transform.tag == "Player")
                 {
+                    audioDoot = true;
+                    source.clip = clipA;
+                    source.Play();
 
+                    GetComponent<Rigidbody>().AddForce(Vector3.up * clickPower);
                     if (randomI == 1)
                     {
                         Debug.Log("right");
@@ -84,6 +96,7 @@ public class SkeletalClicker : MonoBehaviour
                     }
 
                     clickCheck = true;
+                    audioDoot = false;
                 }
             }
         }
@@ -91,8 +104,12 @@ public class SkeletalClicker : MonoBehaviour
 
     public void Click()
     {
-        source.clip = clip;
-        source.Play();
+        if (audioDoot)
+        {
+            source.clip = clip;
+            source.Play();
+        }
+
     }
 
         IEnumerator ClickCooldown(float time)
