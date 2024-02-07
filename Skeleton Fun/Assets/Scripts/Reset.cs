@@ -7,5 +7,12 @@ public class Reset : MonoBehaviour
     GameObject scripts;
     SkeletalClicker SkeletalClicker;
 
-    void()
+    private void Start()
+    {
+        SkeletalClicker = scripts.GetComponent<SkeletalClicker>();
+    }
+    public void ResetStuff()
+    {
+
+    }
 }
