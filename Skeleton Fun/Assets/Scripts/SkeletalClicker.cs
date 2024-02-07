@@ -101,4 +101,15 @@ public class SkeletalClicker : MonoBehaviour
         StopAllCoroutines();
     }
 
+
+    private void OnEnable()
+    {
+        action.Enable();
+    }
+
+    private void OnDisable()
+    {
+        action.Disable();
+    }
+
 }
