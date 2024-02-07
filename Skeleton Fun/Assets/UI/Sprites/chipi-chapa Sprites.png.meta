@@ -1,0 +1,1064 @@
+fileFormatVersion: 2
+guid: 339e490f84480ad4f92353ef9e7bc7e6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1550
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2335403c4e3d6c54b9813683efab686f
+      internalID: -1398503465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1550
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ee851d6eec0fc4fb3c8fb32a4e8148
+      internalID: -234637261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1550
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e38f2af6f4bc547a87955735531057
+      internalID: 320323079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 1550
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07240c84f3eea4b418de68696731df89
+      internalID: -1162466772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 1550
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9d9b07fe8fc7f4993f24a0b071cc92
+      internalID: 322391913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 1550
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec1a5bd8b4afcc49b678a2abef428af
+      internalID: -1831180505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 1550
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc99cd7cc2be5a54c935beae6d89459d
+      internalID: -1439554679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1240
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d341f539852a64598b5fda4ca205b4
+      internalID: 454048517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1240
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07303c231c524074c84db992e8d1331c
+      internalID: -2115962893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1240
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead22aec0903fa3439065e229168a135
+      internalID: -669198112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_10
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 1240
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8344039844fbf94fafeecbd18d9b51d
+      internalID: -335282725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_11
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 1240
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcd3a8ae5d70f4418dc14e7c38d393b
+      internalID: 824479487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 1240
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa5653a800c3fd41a602ebd2551c759
+      internalID: -1570401291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_13
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 1240
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2031d85e2b42f84a9bba3fc04217cef
+      internalID: -597790502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 930
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ccf3477ff1bdb498ebf4d97a10b83e
+      internalID: -1637252116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_15
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 930
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73f780cc0a9890468318cf0b9dba962
+      internalID: 257950907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 930
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44f22cff14d3d0479a74fbe93f3a71e
+      internalID: 1289814537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 930
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9ae02e2ae4ad746bd1d95039f3dcb1
+      internalID: 1469054793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 930
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db83b9ffeea7d334a860bd7b1df4eb97
+      internalID: 1568259036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 930
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869b18f99ddbaca4a853f3de6a7ec669
+      internalID: 2126057293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 930
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d119841d59e7cc42af039883c060af2
+      internalID: -1265360125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 620
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b12266d00a564a4d9668aa4daefcd6f
+      internalID: 1690774098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 620
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643d3187e72b1a742b61c3c913e8610a
+      internalID: 2047470251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 620
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459dd586e7b0e0e4c9e0990b5528c445
+      internalID: -74159165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 620
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae4fcb9c01983f41b0285cf86016486
+      internalID: 66477477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_25
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 620
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769ac440110168f4e8125d7f33dcbcf1
+      internalID: -369050865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_26
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 620
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2d6a9570212ec4e9f307214338d631
+      internalID: -802386057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_27
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 620
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f478a2fbd2b1148aba4b219965d294
+      internalID: -2000195337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 310
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe1994b6a3d2744799c1d706dc4b2ad
+      internalID: 1303367036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_29
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 310
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232545311100c064884daafd1d62a2a3
+      internalID: 1745131194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_30
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 310
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f8cf7ca33770f4e9ffe4e9b23fa1d2
+      internalID: 1228706971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 310
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962203150b103694886a7f798c99c088
+      internalID: 562761565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 310
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3526555899d2ea947a48705e90eb3bff
+      internalID: -1580266060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_33
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 310
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118adf6ef019e5e4eb0260cd17bbb12a
+      internalID: 1146132725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_34
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 310
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ffffef420c45941a832c50c06abe96
+      internalID: 1159205390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2565ff94d9029b4a809802f46aa02a1
+      internalID: -1534497792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_36
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 0
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623b99086315b45458db087c87a2b60c
+      internalID: -395562335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_37
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 0
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff0147cf8ab26945bcf2a62c4ce2a75
+      internalID: 1988066981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_38
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 0
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2d6fd8de6cf9343894e1fd90a8ef41
+      internalID: -1538073038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 0
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ac778629fefe6419ac3be345fdf166
+      internalID: -1378984420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 0
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02aa11e7e3e511644806ef4994f76bd8
+      internalID: 455266515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chipi-chapa Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 0
+        width: 498
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb772398781beb488f2ecc8bb9bc136
+      internalID: -853683023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 41c3ba1b0497ff344a345c1380d0ebef
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      chipi-chapa Sprites_0: -1398503465
+      chipi-chapa Sprites_1: -234637261
+      chipi-chapa Sprites_10: -335282725
+      chipi-chapa Sprites_11: 824479487
+      chipi-chapa Sprites_12: -1570401291
+      chipi-chapa Sprites_13: -597790502
+      chipi-chapa Sprites_14: -1637252116
+      chipi-chapa Sprites_15: 257950907
+      chipi-chapa Sprites_16: 1289814537
+      chipi-chapa Sprites_17: 1469054793
+      chipi-chapa Sprites_18: 1568259036
+      chipi-chapa Sprites_19: 2126057293
+      chipi-chapa Sprites_2: 320323079
+      chipi-chapa Sprites_20: -1265360125
+      chipi-chapa Sprites_21: 1690774098
+      chipi-chapa Sprites_22: 2047470251
+      chipi-chapa Sprites_23: -74159165
+      chipi-chapa Sprites_24: 66477477
+      chipi-chapa Sprites_25: -369050865
+      chipi-chapa Sprites_26: -802386057
+      chipi-chapa Sprites_27: -2000195337
+      chipi-chapa Sprites_28: 1303367036
+      chipi-chapa Sprites_29: 1745131194
+      chipi-chapa Sprites_3: -1162466772
+      chipi-chapa Sprites_30: 1228706971
+      chipi-chapa Sprites_31: 562761565
+      chipi-chapa Sprites_32: -1580266060
+      chipi-chapa Sprites_33: 1146132725
+      chipi-chapa Sprites_34: 1159205390
+      chipi-chapa Sprites_35: -1534497792
+      chipi-chapa Sprites_36: -395562335
+      chipi-chapa Sprites_37: 1988066981
+      chipi-chapa Sprites_38: -1538073038
+      chipi-chapa Sprites_39: -1378984420
+      chipi-chapa Sprites_4: 322391913
+      chipi-chapa Sprites_40: 455266515
+      chipi-chapa Sprites_41: -853683023
+      chipi-chapa Sprites_5: -1831180505
+      chipi-chapa Sprites_6: -1439554679
+      chipi-chapa Sprites_7: 454048517
+      chipi-chapa Sprites_8: -2115962893
+      chipi-chapa Sprites_9: -669198112
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
