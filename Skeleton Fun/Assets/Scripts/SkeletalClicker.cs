@@ -59,8 +59,6 @@ public class SkeletalClicker : MonoBehaviour
             if(Time.timeScale  > 0)
             {
                 skeletonRotate.Rotate(0, 0, rotateDirection, Space.Self);
-                //gravityPull = pullForce * Time.deltaTime;
-                //transform.Translate(Vector3.down * gravityPull);
                 GetComponent<Rigidbody>().AddForce(Vector3.down * grav);
             }
         }
@@ -73,8 +71,6 @@ public class SkeletalClicker : MonoBehaviour
 
         if (!clickCheck)
         {
-            //gravityPull = -1.5f;
-
             randomI = Random.Range(1, 3);
             randomF = Random.Range(2f, 2.4f);
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);

@@ -102,7 +102,7 @@ public class PopUps : MonoBehaviour
 
     void ConfettiPop()
     {
-        if (currentTime > 6)
+        if (currentTime > 40)
         {
             if (!conf1)
             {
