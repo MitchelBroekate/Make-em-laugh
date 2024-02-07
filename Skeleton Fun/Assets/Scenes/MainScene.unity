@@ -15077,7 +15077,7 @@ MonoBehaviour:
   skeletonRotate: {fileID: 1543923259}
   source: {fileID: 2071173163}
   clip: {fileID: 8300000, guid: 4b7e801922c84284d9da824cc9a4b195, type: 3}
-  clickPower: 125
+  clickPower: 100
   scripts: {fileID: 1809374417}
   clipA: {fileID: 8300000, guid: 019f23a43f92e864592e1955fbfb9499, type: 3}
   dootTXT: {fileID: 549606200}

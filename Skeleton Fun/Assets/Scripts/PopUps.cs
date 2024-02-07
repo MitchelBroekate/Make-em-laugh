@@ -76,27 +76,27 @@ public class PopUps : MonoBehaviour
         }
         if (currentTime > 40 && currentTime <= 100)
         {
-            waitTime = 3 * 2;
+            waitTime = 4 * 2;
 
             popUpAmount = 2;
         }
         if (currentTime > 100 && currentTime <= 300)
         {
-            waitTime = 2 * 2;
+            waitTime = 3 * 2;
 
-            popUpAmount = 3;
+            popUpAmount = 2;
         }
         if (currentTime > 300 && currentTime <= 500)
         {
             waitTime = 2 * 2;
 
-            popUpAmount = 5;
+            popUpAmount = 4;
         }
         if (currentTime > 500)
         {
-            waitTime = 1 * 2;
+            waitTime = 2 * 2;
 
-            popUpAmount = 4;
+            popUpAmount = 6;
         }
     }
 
@@ -154,7 +154,7 @@ public class PopUps : MonoBehaviour
 
     }
 
-    void LiveTimer()
+     void LiveTimer()
     {
         currentTime += (Time.deltaTime * 0.5f);
 
@@ -187,8 +187,8 @@ public class PopUps : MonoBehaviour
     {
         recT = spawnPopUp.GetComponent<RectTransform>();
 
-        scaleBoundry.x = recT.rect.width / 3;
-        scaleBoundry.y = recT.rect.height / 3;
+        scaleBoundry.x = recT.rect.width / 2;
+        scaleBoundry.y = recT.rect.height / 2;
     }
 
     private Vector3 RandomSpawnLocation()
