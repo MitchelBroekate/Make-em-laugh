@@ -57,10 +57,10 @@ public class SkeletalClicker : MonoBehaviour
 
         if (!clickCheck)
         {
-            gravityPull = -1;
+            gravityPull = -1.5f;
 
             randomI = Random.Range(1, 3);
-            randomF = Random.Range(1f, 2f);
+            randomF = Random.Range(2f, 3f);
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
             if (Physics.Raycast(ray, out hit, 10000))
